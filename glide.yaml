@@ -1,0 +1,7 @@
+package: github.com/bannerchi/dorylus-cli
+import:
+- package: github.com/bannerchi/dorylus
+  version: ^1.0.2
+  subpackages:
+  - tcp
+- package: github.com/urfave/cli
